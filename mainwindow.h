@@ -9,6 +9,9 @@
 #include <QMessageBox>
 #include <QtPrintSupport/QPrinter>
 #include <QtPrintSupport/QPrintDialog>
+#include <QLabel>
+
+#include "mydialog.h"
 
 
 QT_BEGIN_NAMESPACE
@@ -44,8 +47,13 @@ private slots:
 
     void on_actionRedo_triggered();
 
+    void on_actionAbout_triggered();
+
 private:
     Ui::MainWindow *ui;
     QString currentFile = "";
+    QLabel *statusLabel;
+
+    MyDialog *mDialog;
 };
 #endif // MAINWINDOW_H

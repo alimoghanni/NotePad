@@ -1,6 +1,8 @@
 #include "mainwindow.h"
 
 #include <QApplication>
+#include "mydialog.h"
+#include <QPushButton>
 
 int main(int argc, char *argv[])
 {

@@ -13,11 +13,6 @@
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
-  <property name="windowIcon">
-   <iconset>
-    <normaloff>New.bmp</normaloff>
-    <normalon>:/imgs/notepadbmp.bmp</normalon>New.bmp</iconset>
-  </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QWidget" name="verticalLayoutWidget">
     <property name="geometry">

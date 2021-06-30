@@ -1,5 +1,8 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
+#include "mydialog.h"
+#include <QLabel>
+#include <QPushButton>
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -7,6 +10,14 @@ MainWindow::MainWindow(QWidget *parent)
 {
     ui->setupUi(this);
     this->setCentralWidget(ui->textEdit);
+    ui->textEdit->setStyleSheet(QString::fromUtf8("background-color: rgb(50, 50, 50); color: rgb(250, 250, 250);"));
+
+    //statusLabel = new QLabel(this);
+    //statusLabel->setText("NotePad v1.0.0");
+    //ui->statusbar->addPermanentWidget(statusLabel,1);
+
+    this->setWindowTitle("Notepad");
+
 }
 
 MainWindow::~MainWindow()
@@ -51,6 +62,7 @@ void MainWindow::on_actionSave_as_triggered()
     QString text = ui->textEdit->toPlainText();
     out << text;
     file.close();
+    QMessageBox::information(this, "Save", "Saved Successfully!");
 }
 
 void MainWindow::on_actionPrint_triggered()
@@ -94,3 +106,10 @@ void MainWindow::on_actionRedo_triggered()
 {
     ui->textEdit->redo();
 }
+
+void MainWindow::on_actionAbout_triggered()
+{
+    mDialog = new MyDialog(this);
+    mDialog->show();
+}
+

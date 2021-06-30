@@ -7,5 +7,6 @@
         <file>Paste.bmp</file>
         <file>Save.bmp</file>
         <file>Sticky.bmp</file>
+        <file>notepadbmp.bmp</file>
     </qresource>
 </RCC>

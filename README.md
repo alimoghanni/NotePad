@@ -4,5 +4,6 @@
 ![Image of NotePad1](https://github.com/alimoghanni/NotePad/blob/master/01.jpg)
 ![Image of NotePad2](https://github.com/alimoghanni/NotePad/blob/master/02.jpg)
 
-Updated: 2021-06-21
+Created: 2021-06-21
+Last updated: 2020-06-30
 

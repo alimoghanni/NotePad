@@ -1,6 +1,6 @@
 # NotePad
 
-## It's happening, THE Big Update is COMING Soon!
+## It's happening, THE Big Update is COMING Soon!!!
 
 ### This application is written in QT
 ![Image of NotePad1](https://github.com/alimoghanni/NotePad/blob/master/01.jpg)

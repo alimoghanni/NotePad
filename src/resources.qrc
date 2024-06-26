@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/pix">
+        <file>images/icons/16/disk.png</file>
+        <file>images/icons/16/disk--pencil.png</file>
+        <file>images/icons/16/arrow-left.png</file>
+        <file>images/icons/16/arrow-right.png</file>
+        <file>images/icons/16/clipboard-paste.png</file>
+        <file>images/icons/16/folder-open-document.png</file>
+        <file>images/icons/16/printer.png</file>
+        <file>images/icons/16/scissors-blue.png</file>
+        <file>images/icons/16/document-copy.png</file>
+        <file>images/icons/16/document.png</file>
+    </qresource>
+    <qresource prefix="/bin">
+        <file>fonts/roboto/Roboto-Bold.ttf</file>
+        <file>fonts/roboto/Roboto-Medium.ttf</file>
+        <file>fonts/roboto/Roboto-Regular.ttf</file>
+    </qresource>
+</RCC>
